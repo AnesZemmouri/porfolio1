@@ -9,7 +9,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   const toggleResume = () => {
-    const resumeUrl = "/Anes_Zemmouri_Resume.pdf";
+    const resumeUrl = `${import.meta.env.BASE_URL}Anes_Zemmouri_Resume.pdf`;
     window.open(resumeUrl);
   };
 
